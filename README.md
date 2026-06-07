@@ -163,13 +163,13 @@ jupyter notebook data_compression.ipynb
 ```
 The notebook automatically downloads Fashion-MNIST through torchvision.datasets.FashionMNIST.
 
-##Notes
+## Notes
 
 The data/ folder is not included in the repository because the dataset is downloaded automatically.
 The estimated compression ratio is not a final file-size compression ratio. It is a coefficient-sparsity-based proxy used for consistent comparison between methods.
 The adaptive method is intended to show a controllable content-aware compression strategy, not to replace full production image codecs.
 
-##Conclusion
+## Conclusion
 
 This project demonstrates that adaptive quantization can provide a more flexible compression strategy than uniform quantization. While uniform quantization is simpler and faster, adaptive quantization allows the compression process to consider local image content and better balance visual quality, estimated compression ratio, and task-aware classification performance.
 
