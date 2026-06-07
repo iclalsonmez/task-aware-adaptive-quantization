@@ -149,7 +149,7 @@ task-aware-adaptive-quantization/
     └── compression_results_display.csv
 ```
 
-##How to Run
+## How to Run
 
 Open the notebook in Google Colab or run it locally.
 
@@ -161,13 +161,13 @@ Then run:
 ```bash
 jupyter notebook data_compression.ipynb
 ```
-The notebook automatically downloads Fashion-MNIST through torchvision.datasets.FashionMNIST.
+The notebook automatically downloads Fashion-MNIST through `torchvision.datasets.FashionMNIST`.
 
 ## Notes
 
-The data/ folder is not included in the repository because the dataset is downloaded automatically.
-The estimated compression ratio is not a final file-size compression ratio. It is a coefficient-sparsity-based proxy used for consistent comparison between methods.
-The adaptive method is intended to show a controllable content-aware compression strategy, not to replace full production image codecs.
+- The `data/` folder is not included in the repository because the dataset is downloaded automatically.
+- The estimated compression ratio is not a final file-size compression ratio. It is a coefficient-sparsity-based proxy used for consistent comparison between methods.
+- The adaptive method is intended to show a controllable content-aware compression strategy, not to replace full production image codecs.
 
 ## Conclusion
 
